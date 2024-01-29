@@ -24,3 +24,23 @@ end
  else
     puts 0
  end
+ # Write a while loop to print the numbers 1 through 10.
+x = 0
+while x <= 10
+   puts x
+   x = x + 1
+end
+# Write a while loop that prints the word "hello" 5 times.
+ count = 0
+ while count  < 5
+   puts "hello"
+   count = count + 1
+ end
+ # Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
+ while true
+   puts "enter a word:"
+ word = gets.chomp
+  if word == "stop"
+   break
+  end
+end
