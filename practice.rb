@@ -59,3 +59,13 @@
 # pp person["last name"]
 # pp person["email adress"]
 # Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
+# Write a method that takes in a number and returns the number times two. Then run the method and print the result.
+# def doubled_number(number)
+#     return number * 2
+# end
+# pp doubled_number(3)
+# Write a method that takes in a string and returns the string with all capital letters. Then run the method and print the result.
+def uppercased_word(string)
+    return string.upcase
+end
+pp uppercased_word("hello")
