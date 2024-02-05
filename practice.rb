@@ -65,7 +65,7 @@
 # end
 # pp doubled_number(3)
 # Write a method that takes in a string and returns the string with all capital letters. Then run the method and print the result.
-def uppercased_word(string)
-    return string.upcase
-end
-pp uppercased_word("hello")
+# def uppercased_word(string)
+#     return string.upcase
+# end
+# pp uppercased_word("hello")
