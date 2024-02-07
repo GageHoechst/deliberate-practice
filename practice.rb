@@ -69,3 +69,13 @@
 #     return string.upcase
 # end
 # pp uppercased_word("hello")
+# Write a Song class with attributes for name, artist, and duration.
+# class Song
+#     def initialize(name, artist, duration)
+#         @name = name
+#         @artist = artist
+#         @duration = duration
+#     end
+# end
+# song = Song.new("Humility", "Gorillaz", "3:44")
+# pp song
