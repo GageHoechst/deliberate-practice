@@ -79,3 +79,11 @@
 # end
 # song = Song.new("Humility", "Gorillaz", "3:44")
 # pp song
+# Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
+# first_name = "Gage"
+# last_name = "Hoechst"
+# puts first_name + " " + last_name
+# Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
+# first_name = "Gage"
+# last_name = "Hoechst"
+# puts "#{first_name} #{last_name}"
