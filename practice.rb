@@ -87,3 +87,13 @@
 # first_name = "Gage"
 # last_name = "Hoechst"
 # puts "#{first_name} #{last_name}"
+# Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
+# first_name = "Gage"
+# last_name = "Hoechst"
+# puts "#{first_name} #{last_name}"
+# Write a program that asks the user to input a word. If the word is "marco", print "polo".
+puts "enter a word:"
+word = gets.chomp
+if word == "marco"
+    puts "polo"
+end
