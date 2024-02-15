@@ -106,4 +106,12 @@
 #Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
 # words = ["hello", "goodbye", "yes"]
 # words[2] = words[2].upcase
-# pp words
+# pp 
+# Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
+# people = [
+#     { "first_name" => "Gage", "last_name" => "Hoechst"},
+#     { "first_name" => "Noah", "last_name" => "Johnson"},
+#     { "first_name" => "Andrew", "last_name" => "Reese"}
+# ]
+# pp people[0]["first_name"]
+# pp people[0]["last_name"]
