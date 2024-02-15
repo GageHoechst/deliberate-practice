@@ -58,7 +58,6 @@
 # pp person["first name"]
 # pp person["last name"]
 # pp person["email adress"]
-# Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
 # Write a method that takes in a number and returns the number times two. Then run the method and print the result.
 # def doubled_number(number)
 #     return number * 2
@@ -91,9 +90,20 @@
 # first_name = "Gage"
 # last_name = "Hoechst"
 # puts "#{first_name} #{last_name}"
-# Write a program that asks the user to input a word. If the word is "marco", print "polo".
-puts "enter a word:"
-word = gets.chomp
-if word == "marco"
-    puts "polo"
-end
+# Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
+# numbers = [ 50, 67, 6, 4, 70]
+# index = 0
+# while index < numbers.length
+#     pp numbers[index]
+#   index = index + 1
+# end
+# Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
+# numbers = [5]
+# numbers.push(56)
+# numbers.push(2)
+# numbers.push(4)
+# pp numbers
+#Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
+# words = ["hello", "goodbye", "yes"]
+# words[2] = words[2].upcase
+# pp words
